@@ -136,7 +136,7 @@ $(function() {
             url: "/api/reguser",
             data: data,
             success: function(res) {
-                console.log(res);
+                // console.log(res);
                 // 判断请求是否成功
                 if (res.status !== 0) {
                     // return alert('注册失败')
